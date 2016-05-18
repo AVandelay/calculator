@@ -266,7 +266,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRb-Vs-2ML" userLabel="outputLbl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRb-Vs-2ML" userLabel="outputLbl">
                                 <rect key="frame" x="219" y="97" width="200" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="E94-0E-MBv"/>
@@ -293,6 +293,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iUh-y7-OrI" secondAttribute="bottom" id="xSZ-cc-5lY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="outputLbl" destination="MRb-Vs-2ML" id="N9l-BW-NDX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
